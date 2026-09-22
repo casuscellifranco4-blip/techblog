@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+
+{% block title %}Acerca de — TechBlog{% endblock %}
+
+{% block content %}
+<div class="row justify-content-center">
+    <div class="col-md-8">
+        <h1 class="mb-4">Acerca de TechBlog</h1>
+        <p>
+            TechBlog es una aplicación web de blog desarrollada con Django como proyecto final del
+            curso de Python de Coderhouse. El objetivo del proyecto fue aplicar de forma integral
+            los conocimientos adquiridos durante el curso: modelos y migraciones, vistas basadas en
+            clases, formularios con validación, autenticación de usuarios y administración de
+            contenido.
+        </p>
+        <p>
+            La aplicación permite a cualquier usuario registrarse, crear publicaciones sobre
+            programación y tecnología, comentar las publicaciones de otros usuarios, y gestionar su
+            propio perfil.
+        </p>
+        <h4 class="mt-4">Tecnologías utilizadas</h4>
+        <ul>
+            <li>Python 3 y Django</li>
+            <li>SQLite (desarrollo) / PostgreSQL (producción)</li>
+            <li>Bootstrap 5 para la interfaz</li>
+            <li>WhiteNoise para servir archivos estáticos en producción</li>
+            <li>Render para el despliegue</li>
+        </ul>
+        <h4 class="mt-4">Sobre el autor</h4>
+        <p>
+            Desarrollado por Franco Casuscelli, estudiante de Buenos Aires en camino hacia
+            Wirtschaftsinformatik en TU Berlin, con interés en Fintech y desarrollo de software.
+        </p>
+    </div>
+</div>
+{% endblock %}
